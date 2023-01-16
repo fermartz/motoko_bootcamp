@@ -1,9 +1,18 @@
 {
   "canisters": {
    
-    "motoko_bootcamp":{
-        "main": "src/main.mo",
+    "playground":{
+        "main": "backend/main.mo",
         "type": "motoko"
+    },
+    "assets": {
+        "frontend": {
+          "entrypoint": "dist/index.html"
+        },
+        "source": [
+          "dist/"
+        ],
+        "type": "assets"
     }
   },
   "defaults": {
