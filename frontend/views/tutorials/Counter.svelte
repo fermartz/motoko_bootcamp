@@ -2,7 +2,7 @@
     import { playground } from 'canisters/playground';
     import { onMount } from 'svelte';
 
-    let count: number = 0;
+    let count;
     let progress: boolean = false;
 
     const refreshCounter = async () => {
@@ -39,15 +39,10 @@
             Count is : {count}
         </button>
     {/if}
-    <div class="mockup-code bg-primary text-primary-content mt-10">
-        <pre><code>var count : Int = 0&#59;</code></pre>
-        <br />
-        <pre><code>public func increment() : async () &#123;</code></pre>
-        <pre><code>count += 1&#59; </code></pre>
-        <pre><code>&#125;&#59;</code></pre>
-        <br />
-        <pre><code>public func get_value() : async Int &#123;</code></pre>
-        <pre><code>count&#59; </code></pre>
-        <pre><code>&#125;&#59;</code></pre>
-    </div>
+    <a
+        class="font-bold  hover:text-[#3abff8] mt-6"
+        href="https://gist.github.com/fermartz/57e10b66412c5aff05d019cc76ab9902"
+        target="_blank"
+        rel="noopener noreferrer">SEE CODE</a
+    >
 </div>

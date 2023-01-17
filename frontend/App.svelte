@@ -11,15 +11,15 @@
 
 <div class="lg:container lg:mx-auto px-4 min-h-screen ">
     <div class="min-h-screen flex flex-col">
-        <div class=" flex-none">
+        <div class="flex-none">
             <header class="my-4">
                 <a class="hover:text-[#3abff8] font-bold" href="#/">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 64 64"
-                        width="120"
-                        height="120"
                         class="small-svg-logo"
+                        width="80"
+                        height="80"
                     >
                         <style>
                             .small-svg-logo {
@@ -42,7 +42,12 @@
                             class="small-svg-text">μ</text
                         >
                     </svg>
-                    <span class="text-4xl">Motoko Bootcamp</span>
+                    <!-- <img
+                        src="/frontend/assets/logo.svg"
+                        class="w-20 h-20 inline"
+                        alt="logo"
+                    /> -->
+                    <span class="text-3xl">Motoko Bootcamp</span>
                 </a>
             </header>
         </div>

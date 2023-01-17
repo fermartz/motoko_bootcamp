@@ -1,14 +1,14 @@
 <script lang="ts">
 </script>
 
-<div>
+<div class="flex flex-col justify-center items-center">
     <p class="text-4xl font-bold mt-20 mb-8">About</p>
     <img
         class="rounded-[16px]"
         src="https://fermartz.com/fer_web.jpeg"
         alt="fer"
     />
-    <article class="prose lg:prose-lg my-8">
+    <article class="prose lg:prose-lg my-20">
         <p>
             Hello there, I have created this site to document all the exercises
             and learnings for the 2023 Motoko Bootcamp. Find below more info
@@ -44,7 +44,14 @@
                 href="https://www.origyn.com/"
                 rel="noopener noreferrer">Origyn Foundation</a
             >
-            and previously at Mesa Technologies and
+            and previously at
+            <a
+                class="hover:text-[#3abff8] no-underline"
+                target="_blank"
+                href="http://mtec.ai/"
+                rel="noopener noreferrer">Mesa Technologies</a
+            >
+            and
             <a
                 class="hover:text-[#3abff8] no-underline"
                 target="_blank"

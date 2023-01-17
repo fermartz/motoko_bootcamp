@@ -41,10 +41,10 @@
         <progress class="progress w-56 progress-info block mt-8" />
     {/if}
     <p class="mt-8">{greet}</p>
-
-    <div class="mockup-code bg-primary text-primary-content mt-10">
-        <pre><code>public func greet( i : Text) : async Text &#123;</code></pre>
-        <pre><code>"Hello there" &#35; i &#35 "!!!" </code></pre>
-        <pre><code>&#125;&#59;</code></pre>
-    </div>
+    <a
+        class="font-bold  hover:text-[#3abff8] mt-6"
+        href="https://gist.github.com/fermartz/5582fafa87f3c99f32d4c642b08f9601"
+        target="_blank"
+        rel="noopener noreferrer">SEE CODE</a
+    >
 </div>
